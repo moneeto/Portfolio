@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/Moneeto.svg">
+    <link rel="stylesheet" href="styles.css">
+    <title>Joaquin Palmeyro</title>
+</head>
+<body id="bodyId">
+    <header id="header">
+        <nav id="navbar">
+          <ul class="flex-list-container">
+            <div class="div-logo-principal">
+                <a href="#welcome-section">
+                    <svg class="dibujoSvg" width="70" height="70" viewBox="0 0 117 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="117" height="79"/>
+                    <g id="Cuerpo">
+                        <path id="Polygon 1" d="M51.7099 1.84346C54.8643 -0.448338 59.1357 -0.448337 62.2901 1.84346L89.7522 21.7959C92.9066 24.0877 94.2265 28.15 93.0216 31.8582L82.532 64.1418C81.3272 67.85 77.8716 70.3607 73.9725 70.3607H40.0275C36.1284 70.3607 32.6728 67.85 31.468 64.1418L20.9784 31.8582C19.7735 28.15 21.0934 24.0877 24.2478 21.7959L51.7099 1.84346Z" fill="#D9D9D9"/>
+                        <path id="Polygon 2" d="M35.4641 77C33.9245 79.6667 30.0755 79.6667 28.5359 77L0.823081 29C-0.71652 26.3333 1.20798 23 4.28718 23L59.7128 23C62.792 23 64.7165 26.3333 63.1769 29L35.4641 77Z" fill="#D9D9D9"/>
+                        <path id="Polygon 3" d="M88.4641 77C86.9245 79.6667 83.0755 79.6667 81.5359 77L53.8231 29C52.2835 26.3333 54.208 23 57.2872 23L112.713 23C115.792 23 117.717 26.3333 116.177 29L88.4641 77Z" fill="#D9D9D9"/>
+                    </g>
+                    <g id="Ojos">
+                        <rect id="Ojo Izquierdo" class="ojo" x="46" y="25" width="4" height="13" fill="black"/>
+                        <rect id="Ojo Derecho" class="ojo" x="64" y="25" width="4" height="13" fill="black"/>
+                    </g>
+                    </svg>
+                </a>
+            </div>
+            <li class="nav-link hvr-underline-from-center"><a href="#welcome-section">About me</a></li>
+            <li class="nav-link hvr-underline-from-center"><a href="#skills-section">Skills</a></li>
+            <li class="nav-link hvr-underline-from-center"><a href="#projects-section">My Projects</a></li>
+            <li class="nav-link hvr-underline-from-center"><a href="#contact-section">Contact</a></li>
+          </ul>  
+      </nav>
+    </header>
+
+    <section id="welcome-section">
+        <div id="contenedorTexto" class="texto-principal-profesion">
+            <h1 id="frontendText" class="front-end-developer-text frontend-text">FRONT-END</h1>
+            <h1 id="developerText" class="front-end-developer-text developer-text">DEVELOPER</h1>
+        </div>
+        <div id="tppDiv" class="texto-principal-presentacion">
+            <div class="tppFotoFlex">
+                <div class="tppFlex">
+                    <h1 class="nombreText opacity" style="text-shadow: -1px 0 black, 0 5px black, 1px 0 black, 0 -1px black;">Joaquin Palmeyro</h1>
+                    <div id="box-1" class="box-1"><div id="content-1" class="content-1"><h3 id="profesion" class="profesionText">Web Developer</h2></div></div>
+                    <br>
+                    <p class="descripcionText opacity">I am a predisposed person, with courage and responsibility towards
+                    work and it's environment. I have the best intentions for adaptation and
+                    learning ability in the workplace, both as a group and individually.</p>
+                </div>
+                <div id="box" class="box">
+                    <div id="content" class="content">
+                      <img src="/Portafolio/media/pp EN PNG.png" alt="Joaquin Palmeyro">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="skills-section">
+        <div class="skills-container reveal">
+            <h1 class="skills-container-title" style="color: white; font-size: 3em; text-shadow: -1px 0 black, 0 5px black, 1px 0 black, 0 -1px black;">Skills</h1>
+            <div class="skills-logos" id="logos-skills">
+                <span>
+                    <img src="/Portafolio/media/html.png" alt="Logo de HTML" style="max-width: 90px;">
+                    <h3 class="skill-name-span">HTML</h3>
+                </span>
+                <span>
+                    <img src="/Portafolio/media/css.png" alt="Logo de CSS" style="max-width: 90px;">
+                    <h3 class="skill-name-span">CSS</h3>
+                </span>
+                <span>
+                    <img src="/Portafolio/media/js.jpg" alt="Logo de JavaScript" style="max-width: 90px;">
+                    <h3 class="skill-name-span">JavaScript</h3>
+                </span>
+                <span>    
+                    <img src="/Portafolio/media/vbnet.png" alt="Logo de Visual Basic.NET" style="max-width: 90px;">
+                    <h3 class="skill-name-span">Visual Basic .NET</h3>
+                </span>
+                <span>
+                    <img src="/Portafolio/media/html.png" alt="Logo de HTML" style="max-width: 90px;">
+                    <h3 class="skill-name-span">AccessDB</h3>
+                </span>
+            </div>
+            <div class="skill-button-div">
+                <button class="skill-button hvr-shutter-in-horizontal" id="buttonSkill" onclick="mostrarSkills();">Show tools!</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-section">
+        
+        <div class="projects-container reveal">
+            <h1 style="color: white; font-size: 3em; text-shadow: -1px 0 black, 0 5px black, 1px 0 black, 0 -1px black;">My Projects</h1>
+            <div class="projectFlex">
+                <a href="#">
+                    <div class="proyecto-1-card proyecto-card">
+                        <div class="description">
+                            <!-- <div class="img-div">
+                                <img src="media/ABM.png" alt="" class="project-img pi1">
+                            </div> -->
+                            <h1 class="proyecto-1 proyecto-title">CRUD School Students</h1>
+                            <p class="proyecto-text">VBA for Windows Apps that allows you to Create, Read, Update and Delete database clients.</p>
+                        </div> 
+                    </div>
+                </a>
+                <a href="#">    
+                    <div class="proyecto-2-card proyecto-card"> 
+                        <div class="description">
+                            <!-- <div class="img-div">
+                                <img src="media/ferrari.png" alt="" class="project-img pi2">
+                            </div> -->
+                            <h1 class="proyecto-2 proyecto-title">Ferrari Landing Page</h1>
+                            <p class="proyecto-text">A soft and delicated landing page using HTML, CSS and JavaScript
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="proyecto-3-card proyecto-card">
+                        <div class="description">
+                            <!-- <div class="img-div pi3">
+                                <img src="media/pokemon.png" alt="" class="project-img">
+                            </div> -->
+                            <h1 class="proyecto-3 proyecto-title">POKEMON! Web Minigame
+                            </h1>
+                            <p class="proyecto-text">Applied logical terms and JavaScript algorithms, functions and DOM manipulation.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div class="form-title">
+            <h1 class="form-title-text">LET ME <span class="form-title-text" style="color: #ddb226;">HELP</span> YOU!</h1>
+            <h2 class="form-title-subtext">Get in touch:</h2>
+        </div>
+    <div class="form-div">
+        <div class="head-form">
+            <form action="form.php" method="POST" class="form">
+                <label for="name">
+                    <input type="text" class="input" id="name" name="name" placeholder="Name">
+                </label>
+                <label for="email">
+                    <input type="email" class="input" id="email" name="email" placeholder="E-mail address" required>
+                </label>
+                <label for="textarea">
+                    <textarea class="input" placeholder="Write your message here!" id="textarea" name="textarea"></textarea>
+                </label>
+                <button class="submit-button input hvr-shutter-in-horizontal" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="logo-div">
+            <a href="https://www.linkedin.com/in/joaquinpalmeyro/" target="_blank">
+                <img class="form-logo" src="http://cdn.onlinewebfonts.com/svg/img_137494.png" alt="">
+            </a>
+            <a href="https://github.com/moneeto" target="_blank">
+                <img class="form-logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+            </a>
+            <a href="#" target="_blank">
+                <img class="form-logo" src="http://cdn.onlinewebfonts.com/svg/img_137494.png" alt="">
+            </a>
+        </div>
+    </div>
+    </section>
+
+
+
+    
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
